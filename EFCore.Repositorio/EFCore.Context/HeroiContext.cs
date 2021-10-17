@@ -1,11 +1,12 @@
 ﻿using EFCore.Dominio;
+using EFCore.Dominio.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EFCore.Repositorio
+namespace EFCore.Repositorio.EFCore.Context
 {
     public class HeroiContext : DbContext
     {
